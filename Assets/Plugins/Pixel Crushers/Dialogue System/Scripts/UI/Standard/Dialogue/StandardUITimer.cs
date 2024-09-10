@@ -68,6 +68,19 @@ namespace PixelCrushers.DialogueSystem
         }
 
         /// <summary>
+        /// Sets the amount of time left.
+        /// </summary>
+        /// <param name="setTime">Seconds to set the timer to.</param>
+        public void SetTime(float setTime) {
+            //float elapsedTime = Time.time - m_startTime;
+            m_startTime = setTime;
+        }
+
+        public float GetTime() {
+            return m_startTime;
+        }
+
+        /// <summary>
         /// Called each tick to update the timer display. The default method updates a UI slider.
         /// </summary>
         /// <param name="normalizedTimeLeft">1 at the start, 0 when the timer times out.</param>

@@ -401,6 +401,13 @@ namespace PixelCrushers.DialogueSystem
         }
 
         /// <summary>
+        /// Follows a response that has been set as the current response by SetCurrentResponse.
+        /// </summary>
+        public Response GetCurrentResponse() {
+            return m_currentResponse;
+        }
+
+        /// <summary>
         /// Sets the current response, which can be used by GotoCurrentResponse. Typically only
         /// used if the dialogue UI's timeout action specifies to select the current response.
         /// </summary>
