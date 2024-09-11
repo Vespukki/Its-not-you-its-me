@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 459612ab98e7d41989b8b399de35c407, type: 3}
   m_Name: royalty
   m_EditorClassIdentifier: 
-  showFoldout: 0
+  showFoldout: 1
   text: <audioClips=royalty><stopPreviousSound=false><drawAnim=Fade><readDelay=0.15>

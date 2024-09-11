@@ -277,7 +277,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: So what did you want to talk about anon?
+        value: <v=girl>So what did you want to talk about anon?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -456,10 +456,10 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: oh ok.... bitch oh ok.... bitch oh ok.... bitch oh ok.... bitchoh
-          ok.... bitch oh ok.... bitchoh ok.... bitchoh ok.... bitchoh ok.... bitchoh
-          ok.... bitchoh ok.... bitchoh ok.... bitchoh ok.... bitchoh ok.... bitchoh
-          ok.... bitchoh ok....
+        value: <v=girl>oh ok.... bitch oh ok.... bitch oh ok.... bitch oh ok....
+          bitchoh ok.... bitch oh ok.... bitchoh ok.... bitchoh ok.... bitchoh ok....
+          bitchoh ok.... bitchoh ok.... bitchoh ok.... bitchoh ok.... bitchoh ok....
+          bitchoh ok.... bitchoh ok....
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -568,7 +568,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: what thats so mean
+        value: <v=girl>I don't think you mean that at all. Why would you say that
+          to me
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -711,7 +712,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 191.37653
-        y: 416.61325
+        y: 415.88068
         width: 160
         height: 30
     - id: 8
