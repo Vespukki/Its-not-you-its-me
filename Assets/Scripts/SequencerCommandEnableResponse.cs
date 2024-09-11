@@ -6,6 +6,7 @@ using PixelCrushers.DialogueSystem;
 using System.Threading;
 using PixelCrushers.DialogueSystem.ChatMapper;
 using UnityEngine.EventSystems;
+using System.Collections.Generic;
 
 namespace PixelCrushers.DialogueSystem.SequencerCommands
 {
@@ -25,17 +26,28 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands
 
             StandardUIMenuPanel test2 = DialogueManager.instance.GetComponentInChildren<StandardUIMenuPanel>();
 
-
-
-            foreach (GameObject button in DialogueManager.instance.GetComponentInChildren<StandardUIMenuPanel>().instantiatedButtons) {
-                StandardUIResponseButton test3 = button.GetComponent<StandardUIResponseButton>();
-                Debug.Log(test3.ToString());
-            }
-            Response test = DialogueManager.instance.conversationController.GetCurrentResponse();
-
             int currentIndex = 3;
 
-            Debug.Log("Current Index is: " + canRefresh);
+            Response currentResponse = DialogueManager.instance.conversationController.GetCurrentResponse();
+
+            List<GameObject> buttons = DialogueManager.instance.GetComponentInChildren<StandardUIMenuPanel>().instantiatedButtons;
+            for ( int i = 0; i < buttons.Count; i++ ) {
+                StandardUIResponseButton test3 = buttons[i].GetComponent<StandardUIResponseButton>();
+                if (test3.text == currentResponse.formattedText.text) {
+                    currentIndex = i;
+                }
+            }
+            //foreach (GameObject button in DialogueManager.instance.GetComponentInChildren<StandardUIMenuPanel>().instantiatedButtons) {
+            //    StandardUIResponseButton test3 = button.GetComponent<StandardUIResponseButton>();
+            //    if (test3.text == currentResponse.formattedText.text) {
+            //        currentIndex = 0;
+            //    }
+
+            //    Debug.Log("test me");
+            //}
+
+
+            Debug.Log("Current Index is: " + currentIndex);
 
 
             // make sure it doesnt loop

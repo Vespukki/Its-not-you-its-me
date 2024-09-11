@@ -682,7 +682,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: low key i am
+        value: <c=rainbow><w>low key i am
         type: 0
         typeString: 
       - title: Sequence
