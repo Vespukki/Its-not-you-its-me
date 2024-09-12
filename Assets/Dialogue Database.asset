@@ -113,13 +113,13 @@ MonoBehaviour:
   - id: 3
     fields:
     - title: Name
-      value: 
+      value: Anger
       type: 0
       typeString: 
     - title: Initial Value
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
+      value: 0.5
+      type: 1
+      typeString: CustomFieldType_Number
     - title: Description
       value: 
       type: 0
@@ -127,13 +127,13 @@ MonoBehaviour:
   - id: 4
     fields:
     - title: Name
-      value: 
+      value: Timeout
       type: 0
       typeString: 
     - title: Initial Value
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
+      value: 10
+      type: 1
+      typeString: CustomFieldType_Number
     - title: Description
       value: 
       type: 0
@@ -141,13 +141,13 @@ MonoBehaviour:
   - id: 5
     fields:
     - title: Name
-      value: 
+      value: AngerWaitTime
       type: 0
       typeString: 
     - title: Initial Value
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
+      value: 10
+      type: 1
+      typeString: CustomFieldType_Number
     - title: Description
       value: 
       type: 0
@@ -463,21 +463,17 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: SetVariable(Timeout, 10);
         type: 0
         typeString: CustomFieldType_Text
       - title: Response Menu Sequence
         value: 'SetTimeout(10);
 
-          Delay(2)->Message(done);
+          Delay([var=AngerWaitTime])->Message(done);
 
           SetVariable(ShowMessage,true)@Message(done);
 
-          EnableResponse(3)@Message(done);
-
-
-
-'
+          EnableResponse(3)@Message(done);'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -542,7 +538,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 173.72455
-        y: 347.70657
+        y: 345.07498
         width: 160
         height: 30
     - id: 5
@@ -1036,8 +1032,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.9100001
+    canvasScrollPosition: {x: 51.8796, y: 44.097656}
+    canvasZoom: 0.7600002
   syncInfo:
     syncActors: 0
     syncItems: 0

@@ -99,11 +99,11 @@ MonoBehaviour:
   - id: 2
     fields:
     - title: Name
-      value: 
+      value: CanRefresh
       type: 0
       typeString: 
     - title: Initial Value
-      value: False
+      value: True
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Description
@@ -113,41 +113,13 @@ MonoBehaviour:
   - id: 3
     fields:
     - title: Name
-      value: 
+      value: Anger
       type: 0
       typeString: 
     - title: Initial Value
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
-    - title: Description
-      value: 
-      type: 0
-      typeString: 
-  - id: 4
-    fields:
-    - title: Name
-      value: 
-      type: 0
-      typeString: 
-    - title: Initial Value
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
-    - title: Description
-      value: 
-      type: 0
-      typeString: 
-  - id: 5
-    fields:
-    - title: Name
-      value: 
-      type: 0
-      typeString: 
-    - title: Initial Value
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
+      value: 0.5
+      type: 1
+      typeString: CustomFieldType_Number
     - title: Description
       value: 
       type: 0
@@ -277,7 +249,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: So what did you want to talk about anon?
+        value: <v=girl>So what did you want to talk about anon?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -456,10 +428,10 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: oh ok.... bitch oh ok.... bitch oh ok.... bitch oh ok.... bitchoh
-          ok.... bitch oh ok.... bitchoh ok.... bitchoh ok.... bitchoh ok.... bitchoh
-          ok.... bitchoh ok.... bitchoh ok.... bitchoh ok.... bitchoh ok.... bitchoh
-          ok.... bitchoh ok....
+        value: <v=girl>oh ok.... bitch oh ok.... bitch oh ok.... bitch oh ok....
+          bitchoh ok.... bitch oh ok.... bitchoh ok.... bitchoh ok.... bitchoh ok....
+          bitchoh ok.... bitchoh ok.... bitchoh ok.... bitchoh ok.... bitchoh ok....
+          bitchoh ok.... bitchoh ok....
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -469,15 +441,11 @@ MonoBehaviour:
       - title: Response Menu Sequence
         value: 'SetTimeout(10);
 
-          Delay(2)->Message(done);
+          Delay(=Anger * 10})->Message(done);
 
           SetVariable(ShowMessage,true)@Message(done);
 
-          EnableResponse(3)@Message(done);
-
-
-
-'
+          EnableResponse(3)@Message(done);'
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
@@ -541,7 +509,7 @@ MonoBehaviour:
             m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 174.82346
+        x: 173.72455
         y: 347.70657
         width: 160
         height: 30
@@ -568,7 +536,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: what thats so mean
+        value: <v=girl>I don't think you mean that at all. Why would you say that
+          to me
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -682,7 +651,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: low key i am
+        value: <c=rainbow><w>low key i am
         type: 0
         typeString: 
       - title: Sequence
@@ -711,7 +680,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 191.37653
-        y: 416.61325
+        y: 415.88068
         width: 160
         height: 30
     - id: 8
@@ -849,7 +818,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: ur a c word
+        value: <c=rainbow><w>Hello, World!
         type: 0
         typeString: 
       - title: Sequence
@@ -877,8 +846,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 378.48645
-        y: 454.11682
+        x: 382.88205
+        y: 445.87506
         width: 160
         height: 30
     - id: 11
@@ -1035,8 +1004,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.9100001
+    canvasScrollPosition: {x: 51.8796, y: 44.097656}
+    canvasZoom: 0.7600002
   syncInfo:
     syncActors: 0
     syncItems: 0
