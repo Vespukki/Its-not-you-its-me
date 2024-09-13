@@ -14,7 +14,6 @@ public class AngerSliderDisplay : MonoBehaviour
     }
     void Update()
     {
-        DialogueLua.SetVariable("AngerWaitTime", DialogueLua.GetVariable("Anger").AsFloat * DialogueLua.GetVariable("Timeout").AsFloat);
 
         Debug.Log("Wait TIme:" + DialogueLua.GetVariable("AngerWaitTime").AsFloat);
         float anger =  1 - DialogueLua.GetVariable("Anger").AsFloat;

@@ -54,8 +54,6 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands
             if (canRefresh) {
                 StandardUITimer timer = DialogueManager.instance.GetComponentInChildren<StandardUITimer>();
                 float currentTime = timer.GetTime();
-                Debug.Log(currentTime);
-                Debug.Log(timer.gameObject.name);
 
                 DialogueManager.instance.conversationController.UpdateResponses();
                 timer.SetTime(currentTime);
@@ -77,6 +75,7 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands
             }
 
 
+            DialogueLua.SetVariable("ShowMessage", false);
 
 
 
@@ -95,7 +94,7 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands
             //    responseMenuPanel.instantiatedButtons[objectToEnable].gameObject.SetActive(false);
             //}
 
-            
+
 
             //responseToEnable.enabled = false;
 
