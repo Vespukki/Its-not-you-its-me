@@ -2836,8 +2836,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <v=girl>That's so like you. wawawaw wawawaw wawawaw wawawaw wawawaw
-          ok i m done.
+        value: '<v=girl>That''s so like you.    '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -2861,13 +2860,13 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 45
         destinationConversationID: 1
-        destinationDialogueID: 46
+        destinationDialogueID: 47
         isConnector: 0
         priority: 2
       - originConversationID: 1
         originDialogueID: 45
         destinationConversationID: 1
-        destinationDialogueID: 47
+        destinationDialogueID: 46
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -2889,8 +2888,8 @@ MonoBehaviour:
             m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 1138.8822
-        y: 1918.0592
+        x: 1153.4276
+        y: 1920.4834
         width: 160
         height: 30
     - id: 46
@@ -2916,7 +2915,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I'm sorry...
+        value: 'I''m sorry... '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -2969,7 +2968,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: What's that supposed to mean?!
+        value: <c=red>What's that supposed to mean?!
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -2996,7 +2995,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1287.1539
-        y: 2017.3732
+        y: 2016.2863
         width: 160
         height: 30
     - id: 48
@@ -3055,8 +3054,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 154.76265, y: 1071.9778}
-    canvasZoom: 0.27999997
+    canvasScrollPosition: {x: 302.12524, y: 1377.3457}
+    canvasZoom: 0.55
   syncInfo:
     syncActors: 0
     syncItems: 0
