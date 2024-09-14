@@ -25,7 +25,7 @@ MonoBehaviour:
   showVoicesFoldout: 1
   showFontsFoldout: 0
   showSoundClipsFoldout: 1
-  showAudioClipsFoldout: 1
+  showAudioClipsFoldout: 0
   showQuadsFoldout: 0
   showMaterialsFoldout: 0
   showAutomaticFoldout: 0
