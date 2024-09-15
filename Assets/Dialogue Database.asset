@@ -398,8 +398,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1253.677
-        y: 67.270935
+        x: 1278.6771
+        y: 51.09445
         width: 160
         height: 30
     - id: 1
@@ -2240,6 +2240,10 @@ MonoBehaviour:
           EnableResponse(3)@Message(done);'
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 0a723090-2b7e-42a7-82ae-c838fa3dfedd
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -2455,8 +2459,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1134.3125
-        y: 1274.0358
+        x: 1119.1809
+        y: 1274.6936
         width: 160
         height: 30
     - id: 38
@@ -2741,6 +2745,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 8cf25dfc-2d2b-4100-b9c7-2dc40da4a3ee
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -4008,6 +4016,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 79f388bc-68ad-4f0a-99cb-7914012812b4
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -4614,14 +4626,14 @@ MonoBehaviour:
               m_ObjectArgument: {fileID: 0}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
               m_IntArgument: 0
-              m_FloatArgument: 0.5
+              m_FloatArgument: 0.25
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 1226.8134
-        y: 3433.9817
+        x: 1179.345
+        y: 3419.4248
         width: 160
         height: 30
     - id: 78
@@ -4679,8 +4691,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1232.8256
-        y: 3489.2842
+        x: 1272.699
+        y: 3552.5754
         width: 160
         height: 30
     - id: 79
@@ -4750,8 +4762,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 916.84503
-        y: 3937.8867
+        x: 945.95905
+        y: 3884.7222
         width: 160
         height: 30
     - id: 80
@@ -4790,6 +4802,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 63578e0b-86e7-44ed-b1bc-8a27495507ec
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -4811,8 +4827,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1540.9937
-        y: 3702.9011
+        x: 1474.538
+        y: 3739.529
         width: 160
         height: 30
     - id: 81
@@ -4851,6 +4867,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 8a676283-ecf1-48db-ad8e-1b5157df2cf7
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -4913,6 +4933,10 @@ MonoBehaviour:
           EnableResponse(3)@Message(done);"
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: c89d657d-c4d2-431f-8307-c3fde62d013d
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -4946,8 +4970,8 @@ MonoBehaviour:
             m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 2268.627
-        y: 3846.0637
+        x: 2248.3738
+        y: 3842.8994
         width: 160
         height: 30
     - id: 83
@@ -5007,8 +5031,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1531.2202
-        y: 3841.3235
+        x: 1493.2455
+        y: 3845.121
         width: 160
         height: 30
     - id: 84
@@ -5299,6 +5323,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 9e9faafb-662d-4a5e-a84e-6e1f04cd6aaf
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -5321,7 +5349,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1894.2234
-        y: 4450.929
+        y: 4450.341
         width: 160
         height: 30
     - id: 90
@@ -5515,7 +5543,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1715.2471
+        x: 1714.6373
         y: 4202.1562
         width: 160
         height: 30
@@ -5542,7 +5570,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Goodbye
+        value: Goodbye.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -5574,8 +5602,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1599.5635
-        y: 4308.592
+        x: 1653.2948
+        y: 4314.562
         width: 160
         height: 30
     - id: 94
@@ -5633,8 +5661,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1826.4534
-        y: 4303.6484
+        x: 1815.4778
+        y: 4303.0386
         width: 160
         height: 30
     - id: 95
@@ -5719,8 +5747,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: 'She stands up slowly and begins walking out of the restaurant. She
-          stops and takes one look back at you. Her expression is sad, but satisfied. '
+        value: 'She stands up and begins walking out of the restaurant. She stops
+          and takes one look back at you. Her expression is sad, but satisfied. '
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -5733,6 +5761,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 8271a020-c0da-41ad-bac4-d0dbe792129a
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -5754,8 +5786,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1688.891
-        y: 4632.1494
+        x: 1662.0618
+        y: 4610.1978
         width: 160
         height: 30
     - id: 97
@@ -5781,7 +5813,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <v=girl>Yeah, that sounds nice
+        value: <v=girl>Yeah, that sounds nice.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -6494,8 +6526,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 977.94116
-        y: 4750.402
+        x: 1016.9656
+        y: 4738.2065
         width: 160
         height: 30
     - id: 110
@@ -6535,6 +6567,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 09cd0739-5d51-4e9b-8ab3-9aa482c7989b
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -6556,7 +6592,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1270.7397
+        x: 1301.2275
         y: 4801.7734
         width: 160
         height: 30
@@ -6907,6 +6943,10 @@ MonoBehaviour:
           EnableResponse(3)@Message(done);"
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 0aee81e8-1d87-4d3f-9d59-5bb833528812
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -7340,6 +7380,10 @@ MonoBehaviour:
           EnableResponse(3)@Message(done);"
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: 3b611643-8e5f-4df1-a463-683cd4a82d0e
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -7379,8 +7423,8 @@ MonoBehaviour:
             m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 428.9555
-        y: 4137.304
+        x: 402.52692
+        y: 4111.59
         width: 160
         height: 30
     - id: 126
@@ -7421,6 +7465,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: ec0cc611-0464-4d63-9ad7-58a5f3a9756c
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -7442,8 +7490,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 371.4928
-        y: 4028.7017
+        x: 370.80786
+        y: 4028.0166
         width: 160
         height: 30
     - id: 127
@@ -7588,8 +7636,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <v=girl>No, but you can at least make an attempt to forgive me because
-          you love me.
+        value: <v=girl>Oh really? You want to go there on our anniversary dinner?
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -7635,8 +7682,8 @@ MonoBehaviour:
             m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 1266.2767
-        y: 3715.233
+        x: 1204.2513
+        y: 3697.5117
         width: 160
         height: 30
     - id: 130
@@ -7809,6 +7856,12 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 132
         destinationConversationID: 1
+        destinationDialogueID: 79
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 132
+        destinationConversationID: 1
         destinationDialogueID: 134
         isConnector: 0
         priority: 2
@@ -7816,12 +7869,6 @@ MonoBehaviour:
         originDialogueID: 132
         destinationConversationID: 1
         destinationDialogueID: 133
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 132
-        destinationConversationID: 1
-        destinationDialogueID: 79
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -8002,13 +8049,13 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 135
         destinationConversationID: 1
-        destinationDialogueID: 137
+        destinationDialogueID: 79
         isConnector: 0
         priority: 2
       - originConversationID: 1
         originDialogueID: 135
         destinationConversationID: 1
-        destinationDialogueID: 79
+        destinationDialogueID: 137
         isConnector: 0
         priority: 2
       - originConversationID: 1
@@ -8670,7 +8717,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 406.73474
+        x: 405.30615
         y: 5349.601
         width: 160
         height: 30
@@ -8891,6 +8938,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: a2036711-3e79-4f91-ba73-62043bd91014
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -8912,8 +8963,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 2138.211
-        y: 4566.5835
+        x: 2102.1348
+        y: 4602.0264
         width: 160
         height: 30
     - id: 155
@@ -9118,7 +9169,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <v=girl>God you are such a dick. Really genuienly with all of your
+        value: <v=girl>God you are such a dick. Really genuinely with all of your
           heart, you are a dick.
         type: 0
         typeString: CustomFieldType_Text
@@ -9153,8 +9204,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 900.3287
-        y: 4968.8096
+        x: 905.7974
+        y: 4992.247
         width: 160
         height: 30
     - id: 159
@@ -9219,8 +9270,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 86.76465, y: 0}
-    canvasZoom: 0.34
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.33999956
   syncInfo:
     syncActors: 0
     syncItems: 0
