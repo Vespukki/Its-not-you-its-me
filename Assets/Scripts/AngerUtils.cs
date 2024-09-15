@@ -9,4 +9,8 @@ public class AngerUtils : MonoBehaviour {
         DialogueLua.SetVariable("Anger", anger + amount);
     }
 
+    public static void SetAngerToOne() {
+        DialogueLua.SetVariable("Anger", 1);
+    }
+
 }
