@@ -561,7 +561,8 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: USE_STM
+    Standalone: USE_STM;USE_STM;TMP_PRESENT
+    WebGL: USE_STM;TMP_PRESENT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

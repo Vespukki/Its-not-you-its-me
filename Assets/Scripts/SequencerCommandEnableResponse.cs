@@ -26,7 +26,7 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands
 
             StandardUIMenuPanel test2 = DialogueManager.instance.GetComponentInChildren<StandardUIMenuPanel>();
 
-            int currentIndex = 3;
+            int currentIndex = 0;
 
             Response currentResponse = DialogueManager.instance.conversationController.GetCurrentResponse();
 
@@ -58,15 +58,16 @@ namespace PixelCrushers.DialogueSystem.SequencerCommands
                 DialogueManager.instance.conversationController.UpdateResponses();
                 timer.SetTime(currentTime);
 
-                Response newSelectedResponse = dialogueManager.currentConversationState.pcResponses[currentIndex];
-                dialogueManager.conversationController.SetCurrentResponse(newSelectedResponse);
+                    Response newSelectedResponse = dialogueManager.currentConversationState.pcResponses[currentIndex];
+                    dialogueManager.conversationController.SetCurrentResponse(newSelectedResponse);
+               
 
                 
                 StandardUIMenuPanel responseMenuPanel = DialogueManager.instance.GetComponentInChildren<StandardUIMenuPanel>();
 
                 EventSystem eventSystem = UnityEngine.EventSystems.EventSystem.current;
 
-                eventSystem.SetSelectedGameObject(responseMenuPanel.instantiatedButtons[currentIndex]);
+                    eventSystem.SetSelectedGameObject(responseMenuPanel.instantiatedButtons[currentIndex]);
 
                 //DialogueManager.instance.conversationController.GotoCurrentResponse();
 
