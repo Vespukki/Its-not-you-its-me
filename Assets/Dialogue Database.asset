@@ -388,7 +388,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 0
         destinationConversationID: 1
-        destinationDialogueID: 74
+        destinationDialogueID: 153
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -5903,72 +5903,14 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: THE END
+        value: THE END. Thank you for playing. Replay the game to try for a different
+          ending.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
         value: 'Delay({{end}})->Message(done);
 
-          Delay(300)@Message(done);'
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Response Menu Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 1
-        originDialogueID: 99
-        destinationConversationID: 1
-        destinationDialogueID: 100
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 1677.2528
-        y: 4866.5674
-        width: 160
-        height: 30
-    - id: 100
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: Retry (LINK THIS TO START)
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
+          Delay(200)@Message(done);'
         type: 0
         typeString: CustomFieldType_Text
       - title: Response Menu Sequence
@@ -5990,8 +5932,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1707.2662
-        y: 5072.1353
+        x: 1683.9835
+        y: 4881.952
         width: 160
         height: 30
     - id: 101
@@ -7619,8 +7561,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 577.34467
-        y: 4235.3047
+        x: 523.36725
+        y: 4204.623
         width: 160
         height: 30
     - id: 129
@@ -7889,8 +7831,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 418.7615
-        y: 4343.0093
+        x: 436.11447
+        y: 4326.325
         width: 160
         height: 30
     - id: 133
@@ -8666,8 +8608,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 426.78336
-        y: 5235.8765
+        x: 282.5524
+        y: 5217.607
         width: 160
         height: 30
     - id: 146
@@ -8718,12 +8660,6 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 146
         destinationConversationID: 1
-        destinationDialogueID: 147
-        isConnector: 0
-        priority: 2
-      - originConversationID: 1
-        originDialogueID: 146
-        destinationConversationID: 1
         destinationDialogueID: 79
         isConnector: 0
         priority: 2
@@ -8736,59 +8672,6 @@ MonoBehaviour:
         serializedVersion: 2
         x: 406.73474
         y: 5349.601
-        width: 160
-        height: 30
-    - id: 147
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 2
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: <c=red>Fuck you
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Response Menu Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 1
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 411.83673
-        y: 5441.4385
         width: 160
         height: 30
     - id: 150
@@ -9336,8 +9219,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 729.3229, y: 3484.6611}
-    canvasZoom: 0.7299993
+    canvasScrollPosition: {x: 130.88245, y: 3973.5295}
+    canvasZoom: 0.34
   syncInfo:
     syncActors: 0
     syncItems: 0
