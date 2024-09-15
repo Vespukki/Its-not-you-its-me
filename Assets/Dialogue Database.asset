@@ -388,7 +388,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 0
         destinationConversationID: 1
-        destinationDialogueID: 153
+        destinationDialogueID: 14
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -9219,7 +9219,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 25.000122, y: 3907.3533}
+    canvasScrollPosition: {x: 86.76465, y: 0}
     canvasZoom: 0.34
   syncInfo:
     syncActors: 0
