@@ -3142,7 +3142,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1140.9688
-        y: 2028.49
+        y: 2026.9275
         width: 160
         height: 30
     - id: 53
@@ -3705,8 +3705,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 856.2943
-        y: 2365.1345
+        x: 859.4193
+        y: 2319.822
         width: 160
         height: 30
     - id: 63
@@ -4181,7 +4181,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: <c=red>Fuck off Tyler
+        value: <c=red>Fuck off, Tyler
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -4336,7 +4336,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 1249.085
-        y: 3151.6814
+        y: 3150.9001
         width: 160
         height: 30
     - id: 74
@@ -4736,8 +4736,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1768.718
-        y: 3628.1309
+        x: 945.5036
+        y: 4053.1309
         width: 160
         height: 30
     - id: 80
@@ -7401,7 +7401,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 428.9555
-        y: 4138.4033
+        y: 4137.304
         width: 160
         height: 30
     - id: 126
@@ -7960,8 +7960,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 543.987
-        y: 4515.9316
+        x: 520.1064
+        y: 4477.872
         width: 160
         height: 30
     - id: 135
@@ -8018,13 +8018,19 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 135
         destinationConversationID: 1
-        destinationDialogueID: 136
+        destinationDialogueID: 79
         isConnector: 0
         priority: 2
       - originConversationID: 1
         originDialogueID: 135
         destinationConversationID: 1
-        destinationDialogueID: 79
+        destinationDialogueID: 138
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 135
+        destinationConversationID: 1
+        destinationDialogueID: 136
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -8034,8 +8040,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 280.23175
-        y: 4584.978
+        x: 361.24445
+        y: 4612.1934
         width: 160
         height: 30
     - id: 136
@@ -8061,8 +8067,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: Work is just so exhausting, I don't think the trip would be worth
-          the cost. We can have fun anywhere, right?
+        value: I told you not yet, and that's that. End of conversation.
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
@@ -8088,8 +8093,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 144.80934
-        y: 4666.407
+        x: 113.52696
+        y: 4702.151
         width: 160
         height: 30
     - id: 137
@@ -8134,21 +8139,659 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
-      conditionsString: Variable["ShowMessage"] == false
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 137
+        destinationConversationID: 1
+        destinationDialogueID: 140
+        isConnector: 0
+        priority: 2
+      conditionsString: 
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 439.93994
-        y: 4681.4443
+        x: 541.2058
+        y: 4697.9
+        width: 160
+        height: 30
+    - id: 138
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: Okay, fine. I'll take you on the vacation.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 138
+        destinationConversationID: 1
+        destinationDialogueID: 139
+        isConnector: 0
+        priority: 2
+      conditionsString: Variable["ShowMessage"] == true
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 328.29025
+        y: 4705.8784
+        width: 160
+        height: 30
+    - id: 139
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: <v=girl>My work is exhausting too. That's why we need this. Come on
+          please I know it will be worth it in the end.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: ' SetVariable(ShowMessage, False); SetVariable(CanRefresh, True);
+          Delay({{end}}); SetVariable(Timeout, 10);'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: "SetTimeout(10); \nDelay([var=AngerWaitTime])->Message(done); SetVariable(ShowMessage,true)@Message(done);
+          EnableResponse(3)@Message(done);"
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 82.500046
+        y: 4808.7666
+        width: 160
+        height: 30
+    - id: 140
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: <v=girl>How DARE you. Sorry we don't all work for some scumbag corporation
+          and contribute to screwing over innocent people for profit like you do!
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: ' SetVariable(ShowMessage, False); SetVariable(CanRefresh, True);
+          Delay({{end}}); SetVariable(Timeout, 12);'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: "SetTimeout(12); \nDelay([var=AngerWaitTime])->Message(done); SetVariable(ShowMessage,true)@Message(done);
+          EnableResponse(3)@Message(done);"
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 140
+        destinationConversationID: 1
+        destinationDialogueID: 79
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 140
+        destinationConversationID: 1
+        destinationDialogueID: 141
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 140
+        destinationConversationID: 1
+        destinationDialogueID: 142
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 3778925499044015449, guid: 57579132d10d12e4d8bf1c5924520caa, type: 3}
+            m_TargetAssemblyTypeName: AngerUtils, Assembly-CSharp
+            m_MethodName: SetAngerToOne
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      canvasRect:
+        serializedVersion: 2
+        x: 538.85254
+        y: 4798.8804
+        width: 160
+        height: 30
+    - id: 141
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: <c=red>Someone has to pay your bills! At least now that your mom doesn't
+          because of the horrible shit you called her last Thanksgiving
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 141
+        destinationConversationID: 1
+        destinationDialogueID: 144
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 333.11484
+        y: 4909.2603
+        width: 160
+        height: 30
+    - id: 142
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: <c=red>I forgot you are a saint! After what you said to your mom the
+          other night I didn't think you would make the cut, but hey I don't make
+          the rules.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 142
+        destinationConversationID: 1
+        destinationDialogueID: 144
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 676.55756
+        y: 4909.2607
+        width: 160
+        height: 30
+    - id: 143
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: <v=girl>I can see it in your eyes you know. You are a violent person.
+          You are just like him.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: ' SetVariable(ShowMessage, False); SetVariable(CanRefresh, True);
+          Delay({{end}}); SetVariable(Timeout, 10);'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: "SetTimeout(10); \nDelay([var=AngerWaitTime])->Message(done); SetVariable(ShowMessage,true)@Message(done);
+          EnableResponse(3)@Message(done);"
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 143
+        destinationConversationID: 1
+        destinationDialogueID: 145
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 143
+        destinationConversationID: 1
+        destinationDialogueID: 79
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 371.47223
+        y: 5118.477
+        width: 160
+        height: 30
+    - id: 144
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: '<v=girl>Oh NOW you want to talk about parent issues? Apple doesn''t
+          fall far from the tree you know... '
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 'Delay({{end}})->Message(done);
+
+          Delay(1)@Message(done);'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 144
+        destinationConversationID: 1
+        destinationDialogueID: 143
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 548.43774
+        y: 5025.588
+        width: 160
+        height: 30
+    - id: 145
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: <c=red>Fuck you
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 145
+        destinationConversationID: 1
+        destinationDialogueID: 146
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 426.78336
+        y: 5235.8765
+        width: 160
+        height: 30
+    - id: 146
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: <v=girl>I can see it in your eyes you know. You are a violent person.
+          You are just like him.
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: ' SetVariable(ShowMessage, False); SetVariable(CanRefresh, True);
+          Delay({{end}}); SetVariable(Timeout, 10);'
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: "SetTimeout(10); \nDelay([var=AngerWaitTime])->Message(done); SetVariable(ShowMessage,true)@Message(done);
+          EnableResponse(3)@Message(done);"
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 146
+        destinationConversationID: 1
+        destinationDialogueID: 147
+        isConnector: 0
+        priority: 2
+      - originConversationID: 1
+        originDialogueID: 146
+        destinationConversationID: 1
+        destinationDialogueID: 79
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 406.73474
+        y: 5349.601
+        width: 160
+        height: 30
+    - id: 147
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: <c=red>Fuck you
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 411.83673
+        y: 5441.4385
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 3967.8467}
-    canvasZoom: 0.4899998
+    canvasScrollPosition: {x: 74.42743, y: 4865.17}
+    canvasZoom: 0.75999975
   syncInfo:
     syncActors: 0
     syncItems: 0
